@@ -15,6 +15,8 @@
 		2D54D29E26B7F34100DD81EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D54D29C26B7F34100DD81EE /* LaunchScreen.storyboard */; };
 		2D54D2A926B7F34200DD81EE /* SwiftUI_ImageFromURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D2A826B7F34200DD81EE /* SwiftUI_ImageFromURLTests.swift */; };
 		2D54D2B426B7F34200DD81EE /* SwiftUI_ImageFromURLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D2B326B7F34200DD81EE /* SwiftUI_ImageFromURLUITests.swift */; };
+		2D54D2C926B7F39600DD81EE /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D2C826B7F39600DD81EE /* ImageLoader.swift */; };
+		2D54D2CF26B7F62900DD81EE /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D2CE26B7F62900DD81EE /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2D54D2AF26B7F34200DD81EE /* SwiftUI-ImageFromURLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ImageFromURLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D54D2B326B7F34200DD81EE /* SwiftUI_ImageFromURLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ImageFromURLUITests.swift; sourceTree = "<group>"; };
 		2D54D2B526B7F34200DD81EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D54D2C826B7F39600DD81EE /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		2D54D2CE26B7F62900DD81EE /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		2D54D29026B7F33B00DD81EE /* SwiftUI-ImageFromURL */ = {
 			isa = PBXGroup;
 			children = (
+				2D54D2CD26B7F60E00DD81EE /* CustomViews */,
+				2D54D2C426B7F37600DD81EE /* Services */,
 				2D54D29126B7F33B00DD81EE /* AppDelegate.swift */,
 				2D54D29326B7F33B00DD81EE /* SceneDelegate.swift */,
 				2D54D29526B7F33B00DD81EE /* ContentView.swift */,
@@ -134,6 +140,22 @@
 				2D54D2B526B7F34200DD81EE /* Info.plist */,
 			);
 			path = "SwiftUI-ImageFromURLUITests";
+			sourceTree = "<group>";
+		};
+		2D54D2C426B7F37600DD81EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D54D2C826B7F39600DD81EE /* ImageLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D54D2CD26B7F60E00DD81EE /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2D54D2CE26B7F62900DD81EE /* URLImage.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +290,8 @@
 			files = (
 				2D54D29226B7F33B00DD81EE /* AppDelegate.swift in Sources */,
 				2D54D29426B7F33B00DD81EE /* SceneDelegate.swift in Sources */,
+				2D54D2C926B7F39600DD81EE /* ImageLoader.swift in Sources */,
+				2D54D2CF26B7F62900DD81EE /* URLImage.swift in Sources */,
 				2D54D29626B7F33B00DD81EE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
